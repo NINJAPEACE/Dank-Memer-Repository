@@ -1,2 +1,2 @@
 # Dank-Memer
-This is a repository of the Dank Check bot but a version of the Discord.js library.
+This is a repository of the Dank Memer bot but this version use Discord.js library.
