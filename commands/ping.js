@@ -5,7 +5,5 @@ message.channel.send(`this number doesn't mean anything really: ${a}${client.ws.
 
 module.exports.config = {
 name: 'ping',
-description: 'test cmd plz ignore',
-usage: 'pls ping',
 aliases: ['ping']
 }
