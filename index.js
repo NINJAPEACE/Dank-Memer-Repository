@@ -33,7 +33,10 @@ console.log(`I'm ready`)
 });
 
 client.on('message', async message => {
-let prefix = "pls";
+const db = require('quick.db');
+let prefix = db.get(`prefix_${message.guild.id}`);
+
+if(prefix === null)prefix = "pls";
 if(message.content.startsWith('PLS')) prefix = 'PLS';
 if(message.content.startsWith('Pls')) prefix = 'Pls';
 //You can add more and customize the prefix
