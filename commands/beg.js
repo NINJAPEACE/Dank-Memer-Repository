@@ -19,5 +19,5 @@ message.channel.send(Msg)
 
 module.exports.config = {
   name: 'beg',
-  aliases = []
+  aliases: []
 }
