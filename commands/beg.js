@@ -18,6 +18,6 @@ message.channel.send(Msg)
 }
 
 module.exports.config = {
-  name = 'beg',
+  name: 'beg',
   aliases = []
 }
