@@ -11,7 +11,7 @@ module.exports.run = async(client, message, args) => {
 
 	let y = new dc.MessageEmbed()
 		.setTitle(`${user.username}'s balance`)
-		.setDescription(`**Wallet :** ⏣ ${money}\n**Bank :** ⏣ ${bank}`)
+		.setDescription(`**Wallet :** ⏣ ${balance.toLocaleString()}\n**Bank :** ⏣ ${bank.toLocaleString()}`)
 		.setColor('RANDOM');
 
 	message.channel.send(y);
